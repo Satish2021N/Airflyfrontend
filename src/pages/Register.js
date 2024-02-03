@@ -13,7 +13,7 @@ function Register() {
     // Password length between 8 to 12 characters
     const lengthRegex = /^.{8,12}$/;
 
-    // Password complexity requirements
+    // Password complexity requirements for registrations
     const uppercaseRegex = /[A-Z]/;
     const lowercaseRegex = /[a-z]/;
     const numberRegex = /[0-9]/;
