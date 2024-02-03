@@ -1,0 +1,79 @@
+.h-screen {
+  height: 100vh;
+}
+.w-400 {
+  width: 400px;
+}
+input,
+select {
+  height: 40px;
+  border: 2px solid grey;
+  width: 100%;
+  padding-left: 20px;
+}
+.card {
+  border: 2px solid grey;
+  box-shadow: 0 0 1px rgb(189, 189, 189);
+  border-radius: 0 !important;
+  margin: 10px;
+}
+
+/* text-sizes */
+
+.text-2xl {
+  font-size: 30px !important;
+}
+.text-xl {
+  font-size: 25px !important;
+}
+.text-lg {
+  font-size: 20px !important;
+}
+.text-md {
+  font-size: 18px !important;
+}
+.primary-btn {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.secondary-btn {
+  background-color: var(--secondary);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/**/
+a {
+  text-decoration: none !important;
+  color: var(--primary) !important;
+}
+.spinner-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0 ,0 , 0.507);
+  z-index: 10000;
+}
+.spinner-border{
+    color:white !important;
+    height: 60px !important;
+    width: 60px !important;
+}
+i{
+    cursor: pointer;
+    font-size:25px;
+}
+h1, p{
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
