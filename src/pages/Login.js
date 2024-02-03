@@ -18,7 +18,6 @@ function Login() {
     const maxAttempts = 5;
 
     if (failedAttempts >= maxAttempts) {
-      // Implement your account lockout mechanism here
       // You might want to disable the login form or introduce a delay before allowing further attempts
       message.error(`Account locked due to too many failed login attempts. Please try again later.`);
     }
